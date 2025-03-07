@@ -1,5 +1,5 @@
 import React from "react";
-import { email, contactDescription, name } from "../constant/data";
+import { email, contactDescription} from "../constant/data";
 
 function Contact() {
     return (

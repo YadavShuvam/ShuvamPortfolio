@@ -1,5 +1,6 @@
 import React from 'react';
-import { projects } from '../constant/data'; // Import the projects data
+import { projects } from '../constant/data';
+import Image from 'next/image';
 
 function Projects() {
     return (
@@ -23,7 +24,7 @@ function Projects() {
                                 rel="noopener noreferrer"
                                 className="w-full sm:w-48 flex-shrink-0"
                             >
-                                <img
+                                <Image
                                     src={typeof project.image === 'string' ? project.image : project.image.src}
                                     alt={project.title}
                                     className="w-full sm:w-48 h-32 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity"

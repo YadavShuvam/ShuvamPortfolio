@@ -1,5 +1,6 @@
 import React from 'react';
 import profile from '@/app/assets/profile.jpg';
+import Image from 'next/image';
 import { name, field, shortBio, socialLinks } from '../constant/data';
 import IconGitHub from '../assets/icons/github';
 import IconInstagram from '../assets/icons/instagram';
@@ -50,7 +51,7 @@ function Hero() {
 
             {/* Profile Image Section */}
             <div className="image w-[40%] sm:w-[40%] md:w-[20%] mt-8 md:mt-0 imgg">
-                <img
+                <Image
                     src={profile.src}
                     className='w-full h-full object-cover img '
                     alt="Profile"
