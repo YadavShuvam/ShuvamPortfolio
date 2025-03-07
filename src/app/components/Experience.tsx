@@ -4,7 +4,7 @@ import { experience } from '../constant/data';
 function Experience() {
     return (
         <section id='Experience'>
-            <div className="experience-container mt-10 ml-5 sm:ml-10 md:ml-20 p-5">
+            <div className="experience-container mt-10 ml-0 sm:ml-10 md:ml-20 p-5">
                 {/* Title Section */}
                 <div className="title">
                     <p className='text-white text-2xl sm:text-3xl md:text-xxl font-sans font-semibold'>

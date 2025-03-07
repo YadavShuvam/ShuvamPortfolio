@@ -1,8 +1,8 @@
 import projectImage1 from '@/app/assets/project.jpeg'
 
-export const email = "shuvamyadav@gmail.com"
+export const email = "024.shuvam@gmail.com"
 export const name = "Shuvam Yadav"
-export const field = "Senior Network Engineer"
+export const field = "Senior Network Admin"
 export const shortBio = "Dedicated Network Engineer passionate about designing and optimizing robust network infrastructures. Excelling in troubleshooting, network security, and cloud integration with strong problem-solving skills. Effective team player with up-to-date knowledge of networking technologies, aspiring to specialize in network architecture or cybersecurity. Committed to excellence and eager to contribute to the future of connected systems."
 export const socialLinks = {
     'gitHub': 'https://github.com/YadavShuvam',

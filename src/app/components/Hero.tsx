@@ -53,7 +53,9 @@ function Hero() {
             <div className="image w-[40%] sm:w-[40%] md:w-[20%] mt-8 md:mt-0 imgg">
                 <Image
                     src={profile.src}
-                    className='w-full h-full object-cover img '
+                    width={500}
+                    height={500}
+                    className='object-cover img '
                     alt="Profile"
                 />
             </div>

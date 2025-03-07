@@ -5,7 +5,7 @@ import Image from 'next/image';
 function Projects() {
     return (
         <section id='projects'>
-            <div className="projects-container w-full md:w-[85%] mt-10 ml-5 sm:ml-10 md:ml-20 p-5">
+            <div className="projects-container w-full md:w-[85%] mt-10 ml-0 sm:ml-10 md:ml-20 p-5">
                 {/* Title Section */}
                 <div className="title">
                     <p className='text-white text-2xl sm:text-3xl md:text-xxl font-sans font-semibold'>
@@ -27,6 +27,8 @@ function Projects() {
                                 <Image
                                     src={typeof project.image === 'string' ? project.image : project.image.src}
                                     alt={project.title}
+                                    height={250}
+                                    width={250}
                                     className="w-full sm:w-48 h-32 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity"
                                 />
                             </a>

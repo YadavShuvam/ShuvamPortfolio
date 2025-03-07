@@ -10,7 +10,7 @@ export default function Home() {
         <main>
             <div className="m-0 pt-5">
                 <Navbar />
-                <div className="m-15">
+                <div className="m-5 sm:m-15">
                     <Hero />
                     <About />
                     <Experience />
